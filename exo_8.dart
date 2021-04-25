@@ -11,7 +11,7 @@ void main() {
   print("Entrez s'il vous plait le numero du mois");
   mois = int.parse(stdin.readLineSync()!);
   print('----------------------------');
-  print("Entrez s'il vous plait le numero du annee");
+  print("Entrez s'il vous plait le numero de  l'annee");
   annee = int.parse(stdin.readLineSync()!);
   var b = (annee % 4 == 0) && ((annee % 100 > 0) || (annee % 400 == 0));
   var cas1 = (mois == 1 ||
