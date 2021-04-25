@@ -27,5 +27,8 @@ void main() {
   var cas3 = (mois == 2 && b && jour >= 1 && jour <= 29);
   var cas4 = (mois == 2 && jour >= 1 && jour <= 28);
   if (cas1 || cas2 || cas3 || cas4) {
-  } else {}
+    print("Date Valide");
+  } else {
+    print("Date non valide");
+  }
 }
